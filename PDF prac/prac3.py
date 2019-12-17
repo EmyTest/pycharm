@@ -3,7 +3,7 @@ import PyPDF2
 
 
 
-pdfReader = PyPDF2.PdfFileReader(open('encrypted.pdf','rb'))
+pdfReader = PyPDF2.PdfFileReader(open('meetingminutes.pdf','rb'))
 # print(pdfReader.isEncrypted)
 # pdfReader.getPage(0)   #报错
 pdfReader.decrypt('swordfish')
