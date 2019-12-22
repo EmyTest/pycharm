@@ -18,7 +18,7 @@
 #     resultPdf.close()
 
 
-'''接密'''
+'''解密'''
 # pdfReader = PyPDF2.PdfFileReader(open('encryptmeeting.pdf','rb'))
 # # print(pdfReader.isEncrypted)
 # # pdfReader.getPage(0)   #报错
